@@ -48,7 +48,8 @@ self.addEventListener('fetch', function(e) {
   
   //var data_url="/mypwa_ws/services/";
   //var data_url="http://localhost/mypwa/data/stores.json";
-  var data_url="https://pumaprojects.github.io/mypwa/data/stores.json";
+  //var data_url="https://pumaprojects.github.io/mypwa/data/stores.json";
+  var data_url="http://109.233.124.156/data/stores.json";
   
   if (e.request.url.indexOf(data_url) > -1) {
     /*

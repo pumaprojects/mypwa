@@ -49,7 +49,8 @@ app.load_stores = function() {
 	//var url="https://127.0.0.1/mypwa_ws/services/get_punti_vendita";
 	//var url="http://localhost/mypwa_ws/services/get_punti_vendita";
 	//var url="http://localhost/mypwa/data/stores.json";
-	var url="https://pumaprojects.github.io/mypwa/data/stores.json";
+	//var url="https://pumaprojects.github.io/mypwa/data/stores.json";
+	var url="http://109.233.124.156/data/stores.json";
 	
 	
 	app.content.style.display="none"; 
