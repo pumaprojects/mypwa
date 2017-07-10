@@ -3,7 +3,6 @@ var cacheName = 'MyPwa';
 
 var filesToCache = [
   '',
-  '/',
   'manifest.json',
   'index.html',
   'scripts/app.js',
