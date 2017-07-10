@@ -67,7 +67,7 @@ app.load_stores = function() {
 				}
 			});
 		}else{
-			//alert("no cache in window");
+			alert("no cache in window");
 		}
 	}else{
 		//alert("dati aggiornati");
