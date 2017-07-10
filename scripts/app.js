@@ -86,6 +86,7 @@ app.load_stores = function() {
 		  }
 		};
 		request.open('GET', url);
+		request.setRequestHeader('Cache-Control', 'no-cache');
 		request.send();
 	}
   }
