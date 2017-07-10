@@ -48,7 +48,8 @@ self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
   
   //var data_url="/mypwa_ws/services/";
-  var data_url="http://localhost/mypwa/data/stores.json";
+  //var data_url="http://localhost/mypwa/data/stores.json";
+  var data_url="https://pumaprojects.github.io/mypwa/data/stores.json";
   
   if (e.request.url.indexOf(data_url) > -1) {
     /*
