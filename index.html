@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My PWA</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+	<header class="header">
+		<h1 class="header__title">
+			My PWA
+			<div id="online_tab">
+				<div id="online_indicator" class="online"></div>
+				<div id="online_text"></div>
+			</div>
+		</h1>
+		<button id="but_refresh" class="headerButton" aria-label="Refresh"></button>
+		<!--- <button id="but_add" class="headerButton" aria-label="Add"></button> --->
+	</header>
+
+	<div class="main">
+		<div id="content">
+			<br /><br /><br /><br /><br /><br />
+			<center>
+				Clicca qui per caricare i dati<br />
+				<input type="button" name="btn_load" id="btn_load" value="Carica" />
+			</center>
+			<br /><br /><br /><br />
+		</div>
+
+		<div class="loader" style="display:none;">
+			<svg viewBox="0 0 32 32" width="32" height="32">
+			  <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+			</svg>
+		</div>
+		
+		
+	</div>
+	
+	<script src="scripts/app.js" async></script>
+</body>
+</html>
